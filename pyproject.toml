@@ -39,9 +39,9 @@ dev = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/jglasspool/t212"
-"Bug Tracker" = "https://github.com/jglasspool/t212/issues"
-"Source" = "https://github.com/jglasspool/t212"
+"Homepage" = "https://github.com/joshglasspool/t212"
+"Bug Tracker" = "https://github.com/joshglasspool/t212/issues"
+"Source" = "https://github.com/joshglasspool/t212"
 
 [tool.hatch.version]
 path = "t212/_version.py"

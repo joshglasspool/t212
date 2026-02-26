@@ -444,7 +444,7 @@ client = Trading212Client("key", "secret", transport=transport)
 
 ```bash
 # Clone and install with dev dependencies
-git clone https://github.com/jglasspool/t212.git
+git clone https://github.com/joshglasspool/t212.git
 cd t212
 python3.11 -m venv .venv && source .venv/bin/activate
 pip install -e ".[dev]"
