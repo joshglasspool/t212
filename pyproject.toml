@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "t212"
+name = "t212-api"
 dynamic = ["version"]
 description = "Python REST API client for the Trading 212 Public API"
 readme = "README.md"
@@ -45,6 +45,9 @@ dev = [
 
 [tool.hatch.version]
 path = "t212/_version.py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["t212"]
 
 [tool.pytest.ini_options]
 asyncio_mode = "auto"
